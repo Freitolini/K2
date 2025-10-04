@@ -1,0 +1,25 @@
+sudo apt install mariadb-server
+sudo mysql_secure_installation
+sudo mysql -uroot -p
+    create database me2;
+    create database me2Test;
+    CREATE USER 'tfreitas'@'TFreitas.lan' IDENTIFIED BY 'tfreitas86';
+    CREATE USER 'tfreitas'@'*' IDENTIFIED BY 'tfreitas86';
+    CREATE USER 'tfreitas'@'localhost' IDENTIFIED BY 'tfreitas86';
+    GRANT ALL PRIVILEGES ON me2.* TO 'tfreitas'@'*';
+    GRANT ALL PRIVILEGES ON me2.* TO 'tfreitas'@'localshot';
+    GRANT ALL PRIVILEGES ON me2.* TO 'tfreitas'@'TFreitas.lan';
+    GRANT ALL PRIVILEGES ON me2Test.* TO 'tfreitas'@'*';
+    GRANT ALL PRIVILEGES ON me2Test.* TO 'tfreitas'@'localshot';
+    GRANT ALL PRIVILEGES ON me2Test.* TO 'tfreitas'@'TFreitas.lan';
+sudo mysql -utfreitas -p
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+sudo service mysql restart
+sudo apt install python3 idle3
+sudo apt install python3-pip
+pip3 install python-binance
+pip3 install telebot
+pip3 install telethon
+pip3  install mysql-connector-python
+pip3  install numpy
+pip3  install paho-mqtt

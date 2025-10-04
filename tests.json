@@ -1,0 +1,4 @@
+2021-05-26 00:43:32,139 | INFO | main.94: Brought BTC : eur=0, old_eur=100.0, amount=0.0031959337741098654, old_amount=0.0, truetarget=104.9949
+{'symbol': 'BTCEUR', 'orderId': 731054853, 'orderListId': -1, 'clientOrderId': 'qKzTololLhtsvR4V6WUoPU', 'transactTime': 1621986211598, 'price': '0.00000000', 'origQty': '0.00319600', 'executedQty': '0.00319600', 'cummulativeQuoteQty': '99.84908044', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'fills': [{'price': '31241.89000000', 'qty': '0.00319600', 'commission': '0.00000320', 'commissionAsset': 'BTC', 'tradeId': 49374280}]}
+2021-05-26 00:43:42,149 | INFO | ma
+

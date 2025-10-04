@@ -1,0 +1,1 @@
+{"username": "kaditi", "hostname": "192.168.1.12", "local_host": "127.0.0.1", "port": 2233, "key_file": "keys/id_kaditi", "sql_port": 3306, "sql_username": "tfreitas", "sql_password": "tfreitas86", "sql_database": "me2Test", "sleep_interval": 10, "key_id": 1, "buffer_size": 3, "notificationPort": 5555, "session": 405, "emptyStart": 0}
